@@ -9,7 +9,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://gigg-three.vercel.app"),
+  metadataBase: new URL("https://nagtibbatreks.in"),
   title: "Nag Tibba Trek — 2 Days / 1 Night from Dehradun | Book Your Slot",
   description:
     "Trek Nag Tibba (9,915 ft), the Serpent's Peak in the Garhwal Himalayas. An easy 2-day weekend trek from Dehradun with camps, meals, permits and local trek leaders included. Bookings open September to May.",

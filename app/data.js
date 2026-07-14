@@ -1,9 +1,9 @@
 // All site content, ported from the original Nag Tibba Trek site.
 
 export const site = {
-  companyName: "NAME",
-  logoText: "NAAG TIBBA",
-  tagline: "tagline",
+  companyName: "Nag Tibba Treks",
+  logoText: "Nag Tibba Treks",
+  tagline: "Small-batch Himalayan treks led by local guides",
   contact: {
     phone: "+91 7037213113",
     email: "nitinbhandari7252@gmail.com",
