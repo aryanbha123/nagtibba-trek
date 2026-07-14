@@ -2,27 +2,11 @@ import { ChevronDown, MessageSquare } from "lucide-react";
 import { faqs, waLink } from "@/app/data";
 
 export default function Faqs() {
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: faqs.map((f) => ({
-      "@type": "Question",
-      name: f.question,
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: f.answer,
-      },
-    })),
-  };
-
+  // FAQ structured data is centralised in components/StructuredData.jsx.
   const wa = waLink("Hello! I have a question about the Nag Tibba Trek.");
 
   return (
     <section id="faqs" className="bg-white border-y border-slate-100">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
         <div className="text-center mb-12">
           <span className="text-brand-primary text-xs font-bold uppercase tracking-widest block mb-2">
