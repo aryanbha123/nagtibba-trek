@@ -11,7 +11,7 @@ import {
   Facebook,
   Twitter,
 } from "lucide-react";
-import { site, navLinks, waLink } from "@/app/data";
+import { site, navLinks, waLink, guides } from "@/app/data";
 
 const socialIcons = {
   instagram: Instagram,
@@ -43,9 +43,9 @@ export default function Footer() {
   return (
     <footer id="contact" className="bg-brand-secondary text-slate-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-8">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8 pb-12 border-b border-white/10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-8 pb-12 border-b border-white/10">
           <div className="sm:col-span-2 lg:col-span-1">
-            <a href="#" className="inline-flex items-center gap-2 mb-4">
+            <a href="/" className="inline-flex items-center gap-2 mb-4">
               <Compass className="w-7 h-7 text-brand-primary" />
               <span className="text-lg font-black text-white tracking-tight">
                 {site.logoText}
@@ -97,6 +97,24 @@ export default function Footer() {
                     className="text-sm text-slate-400 hover:text-brand-primary transition-colors"
                   >
                     {link.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </nav>
+
+          <nav aria-label="Trek guides">
+            <h3 className="text-white font-bold text-sm uppercase tracking-wider mb-4">
+              Trek Guides
+            </h3>
+            <ul className="space-y-2.5">
+              {guides.map((guide) => (
+                <li key={guide.slug}>
+                  <a
+                    href={`/${guide.slug}`}
+                    className="text-sm text-slate-400 hover:text-brand-primary transition-colors"
+                  >
+                    {guide.navLabel}
                   </a>
                 </li>
               ))}

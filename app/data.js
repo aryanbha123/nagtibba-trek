@@ -23,11 +23,71 @@ export const site = {
 };
 
 export const navLinks = [
-  { label: "Overview", href: "#destinations" },
-  { label: "Tour Packages", href: "#packages" },
-  { label: "Itinerary", href: "#itinerary" },
-  { label: "Gallery", href: "#gallery" },
-  { label: "FAQs", href: "#faqs" },
+  { label: "Overview", href: "/#destinations" },
+  { label: "Tour Packages", href: "/#packages" },
+  { label: "Itinerary", href: "/#itinerary" },
+  { label: "Gallery", href: "/#gallery" },
+  { label: "Guides", href: "/guides" },
+  { label: "FAQs", href: "/#faqs" },
+];
+
+// Long-form SEO content pages (guides / blog). Each maps to app/<slug>/page.jsx.
+export const guides = [
+  {
+    slug: "nag-tibba-trek-guide",
+    title: "Nag Tibba Trek: The Complete Guide",
+    navLabel: "Complete Trek Guide",
+    metaTitle: "Nag Tibba Trek Guide: Itinerary, Cost & Best Time (2026)",
+    description:
+      "Everything you need to plan the Nag Tibba Trek — difficulty, best time to visit, a day-by-day itinerary, cost, packing list and how to book your slot from Dehradun.",
+    category: "Trek Guide",
+    datePublished: "2026-07-15",
+    image: "/assets/himalayan-panorama-CZQDbPIm.webp",
+  },
+  {
+    slug: "how-to-reach-nag-tibba",
+    title: "How to Reach Nag Tibba from Delhi, Dehradun & Mussoorie",
+    navLabel: "How to Reach Nag Tibba",
+    metaTitle: "How to Reach Nag Tibba from Delhi, Dehradun & Mussoorie",
+    description:
+      "Full travel guide to reaching the Nag Tibba base at Munglori Village — routes from Delhi, Dehradun and Mussoorie by train, bus, taxi and self-drive, with distances and times.",
+    category: "Travel",
+    datePublished: "2026-07-15",
+    image: "/assets/ridge-sunset-Bgh72GT2.webp",
+  },
+  {
+    slug: "nag-tibba-snow-trek",
+    title: "Nag Tibba Snow Trek: A Winter Guide",
+    navLabel: "Snow / Winter Trek",
+    metaTitle: "Nag Tibba Snow Trek: Winter Guide, Best Time & Tips",
+    description:
+      "Planning the Nag Tibba trek in the snow? Here is the best time for snowfall, what the winter trail is like, the gear you need and safety tips for a January–February summit.",
+    category: "Seasonal",
+    datePublished: "2026-07-15",
+    image: "/assets/hero-sunset-BmWPgdl6.webp",
+  },
+  {
+    slug: "nag-tibba-history",
+    title: "The History of Nag Tibba: The Serpent's Peak",
+    navLabel: "History of Nag Tibba",
+    metaTitle: "Nag Tibba History: The Serpent's Peak & Nag Devta Temple",
+    description:
+      "The story behind Nag Tibba — what the name means, the Nag Devta serpent-god temple near the summit, and why the peak has been sacred to Garhwali shepherds for generations.",
+    category: "History & Culture",
+    datePublished: "2026-07-15",
+    image: "/assets/summit-trident-kvhwwvfs.webp",
+  },
+  {
+    slug: "devalsari",
+    title: "Devalsari: Deodar Forests, Temple & Eco-Tourism",
+    navLabel: "Devalsari Experience",
+    metaTitle: "Devalsari: Deodar Forest, Shiva Temple & Eco-Tourism Guide",
+    description:
+      "Discover Devalsari in the Aglar Valley — its ancient deodar forest, the Devalsari Mahadev temple, rich Himalayan birdlife and how it pairs with the Nag Tibba Trek.",
+    category: "History & Culture",
+    datePublished: "2026-07-15",
+    image: "/assets/devalsari-temple-C4krj1hR.webp",
+  },
 ];
 
 // WhatsApp deep-link helper.
