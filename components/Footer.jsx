@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from "react";
 import {
-  Compass,
   Phone,
   Mail,
   MapPin,
@@ -46,7 +45,13 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-8 pb-12 border-b border-white/10">
           <div className="sm:col-span-2 lg:col-span-1">
             <a href="/" className="inline-flex items-center gap-2 mb-4">
-              <Compass className="w-7 h-7 text-brand-primary" />
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/assets/logo-mark-Sw6PFeXb.webp"
+                alt=""
+                aria-hidden="true"
+                className="h-9 w-auto"
+              />
               <span className="text-lg font-black text-white tracking-tight">
                 {site.logoText}
               </span>

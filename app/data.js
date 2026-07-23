@@ -2,7 +2,7 @@
 
 export const site = {
   companyName: "Nag Tibba Treks",
-  logoText: "Nag Tibba Treks",
+  logoText: "Nagtibba & Devalsari",
   tagline: "Small-batch Himalayan treks led by local guides",
   contact: {
     phone: "+91 7037213113",
