@@ -88,6 +88,17 @@ export const guides = [
     datePublished: "2026-07-15",
     image: "/assets/devalsari-temple-C4krj1hR.webp",
   },
+  {
+    slug: "nag-tibba-trek-inclusions",
+    title: "Nag Tibba Trek Inclusions & Exclusions",
+    navLabel: "Inclusions & Exclusions",
+    metaTitle: "Nag Tibba Trek: What's Included & Excluded (Package Details)",
+    description:
+      "Exactly what's included in the Nag Tibba Trek package — meals, alpine camping, sleeping bags, local trek leaders, first aid and permits — and what you should budget for separately.",
+    category: "Booking Info",
+    datePublished: "2026-07-23",
+    image: "/assets/himalayan-panorama-CZQDbPIm.webp",
+  },
 ];
 
 // WhatsApp deep-link helper.
