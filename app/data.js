@@ -5,12 +5,12 @@ export const site = {
   logoText: "Nagtibba & Devalsari",
   tagline: "Small-batch Himalayan treks led by local guides",
   contact: {
-    phone: "+91 7037213113",
+    phone: "+91 7017244279",
     email: "nitinbhandari7252@gmail.com",
     address: "Dehradun",
   },
   bookingChannels: {
-    whatsappNumber: "917037213113",
+    whatsappNumber: "917017244279",
     whatsappDefaultMessage:
       "Hello! I'm interested in booking a slot for the Nag Tibba Trek. Could you please share availability and next steps?",
     instagramUsername: "_nagtibba.devalsari",
